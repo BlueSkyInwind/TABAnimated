@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
 
   #tag方式：填tag名称
   #commit方式：填commit的id
-  s.version      = "2.0.5"
-
+  s.version      = "2.5.1"
   #库的简介
   s.summary      = "TABAnimated是一个ios平台上的网络过渡动画(骨架屏)的封装"
 
@@ -15,7 +14,7 @@ Pod::Spec.new do |s|
   TABAnimated是一个ios平台上的网络过渡动画(骨架屏)的封装，目前仅支持oc
                            DESC
   #库的远程仓库地址
-  s.homepage     = "https://github.com/tigerAndBull/LoadAnimatedDemo-ios"
+  s.homepage     = "https://github.com/tigerAndBull/TABAnimated"
 
   #版权方式
   s.license = { :type => "MIT", :file => "LICENSE" }
@@ -27,11 +26,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   #库的地址
-  s.source       = { :git => "https://github.com/tigerAndBull/LoadAnimatedDemo-ios.git", :tag => "2.0.5.2" }
-  # s.source       = { :git => "https://github.com/tigerAndBull/LoadAnimatedDemo-ios.git", :commit => "e05513581c80a7c899e65de48e8fe474a64734eb" }
+  s.source       = { :git => "https://github.com/tigerAndBull/TABAnimated.git", :tag => "2.5.1" }
 
-     
-  s.source_files = "AnimatedDemo/AnimatedDemo/TABAnimated/**/*.{h,m}"
-
+  s.source_files = 'TABAnimatedDemo/TABAnimated/**/*.{h,m}'
 
 end
